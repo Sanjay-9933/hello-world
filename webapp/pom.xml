@@ -20,8 +20,8 @@
 
     <plugins>
       <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-war-plugin</artifactId>
+        <groupId>org.apache.maven.plugins</groupId>//org.mortbay.jetty
+        <artifactId>maven-war-plugin</artifactId>//jetty-maven-plugin 
          <version>3.4.0</version>
       </plugin>
     </plugins>
